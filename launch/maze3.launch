@@ -22,4 +22,5 @@
   </include>
 
 <include file="$(find mobot_description)/launch/controller.launch"/>
+<node name="odom_pub" pkg="mobot_description" type="odom.py" output="screen" />
 </launch>
