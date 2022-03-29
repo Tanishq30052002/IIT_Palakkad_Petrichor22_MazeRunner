@@ -26,4 +26,18 @@
 8. You are all set up with the workspace.
 
 ## Run the Maze Runner
-1. 
+1. Run the gazebo world:-
+	*	~~~
+		roslaunch mobot_description maze1.launch
+		~~~
+2. Run rviz and gmapping node	
+ 	*	~~~
+		roslaunch mobot_description display.launch
+		~~~
+3. Run Solution script
+	*	~~~
+		roslaunch mobot_description solution_script.launch
+		~~~
+		
+		
+### For running other world just change maze.launch in command 1 to either maze2.alunch or maze3.launch or FinalWorld.launch
